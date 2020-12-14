@@ -6,8 +6,8 @@
 }
 
 .restaurant__hero {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(1, 1, 1, 0.7)), to(rgba(1, 1, 1, 0))), url("/dist/image/Restaurant scene.jpg") center;
-  background: linear-gradient(to right, rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0)), url("/dist/image/Restaurant scene.jpg") center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(1, 1, 1, 0.7)), to(rgba(1, 1, 1, 0))), url("../image/Restaurant scene.jpg") center;
+  background: linear-gradient(to right, rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0)), url("../image/Restaurant scene.jpg") center;
   background-attachment: fixed;
   background-size: cover;
   height: 500px;
@@ -88,8 +88,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.8)), to(rgba(1, 1, 1, 0.1))), url("/dist/image/black_estate_34.jpg") center;
-  background: linear-gradient(to bottom, rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.1)), url("/dist/image/black_estate_34.jpg") center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.8)), to(rgba(1, 1, 1, 0.1))), url("../image/black_estate_34.jpg") center;
+  background: linear-gradient(to bottom, rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.1)), url("../image/black_estate_34.jpg") center;
   background-size: cover;
 }
 
@@ -102,18 +102,18 @@ body {
 }
 
 .media-left {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("/dist/image/B & B.jpg") center right;
-  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("/dist/image/B & B.jpg") center right;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("../image/B & B.jpg") center right;
+  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("../image/B & B.jpg") center right;
 }
 
 .media-center {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("/dist/image/IMG_0884.jpg") center top;
-  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("/dist/image/IMG_0884.jpg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("../image/IMG_0884.jpg") center top;
+  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("../image/IMG_0884.jpg") center top;
 }
 
 .media-right {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("/dist/image/IMG_3245 copy.jpg") center top;
-  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("/dist/image/IMG_3245 copy.jpg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.3))), url("../image/IMG_3245 copy.jpg") center top;
+  background: linear-gradient(rgba(1, 1, 1, 0.3)), url("../image/IMG_3245 copy.jpg") center top;
 }
 
 .media-item {

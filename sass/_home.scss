@@ -12,7 +12,7 @@ body {
       rgba($primary-color, 0.8),
       rgba($primary-color, 0.1)
     ),
-    url("/dist/image/black_estate_34.jpg") center;
+    url("../image/black_estate_34.jpg") center;
   background-size: cover;
 }
 
@@ -24,15 +24,15 @@ body {
 
 .media-left {
   background: linear-gradient(rgba($primary-color, 0.3)),
-    url("/dist/image/B\ &\ B.jpg") center right;
+    url("../image/B\ &\ B.jpg") center right;
 }
 .media-center {
   background: linear-gradient(rgba($primary-color, 0.3)),
-    url("/dist/image/IMG_0884.jpg") center top;
+    url("../image/IMG_0884.jpg") center top;
 }
 .media-right {
   background: linear-gradient(rgba($primary-color, 0.3)),
-    url("/dist/image/IMG_3245\ copy.jpg") center top;
+    url("../image/IMG_3245\ copy.jpg") center top;
 }
 
 .media-item {
