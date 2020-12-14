@@ -1,0 +1,139 @@
+@import 'config';
+@import 'restaurant';
+@import 'home';
+@import 'menu';
+
+
+* {
+    font-family: 'Scheherazade', serif;
+}
+
+
+// HEADER
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// MAIN
+
+.sticky-btn {
+    font-size: 1rem;
+    position: fixed;
+    top:65vh;
+    z-index: 8;
+    color: $neutralLight-color;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    padding: 0 20px;
+    font-weight: 700;
+    border-radius: 0 3px 3px 0;
+    margin-left: -1px;
+    &:hover {
+        width: 200px;
+        background-color: $secondaryDark-color;
+        border-color: $secondaryDark-color;
+    }
+}
+
+
+// FOOTER
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: $primary-color;
+    padding: 30px;
+    color: $neutralLight-color;
+    > * {
+    padding: 0 20px;
+    }
+}
+
+.column {
+    position: relative;
+    > *:last-child {
+        position: absolute;
+        bottom: 0;
+        }
+
+    &__left {
+        width:20%;
+        > p {
+            font-size: 1rem;
+            line-height: 100%;
+        }   
+    }
+    
+    &__middle {
+        width:20%;
+        text-align: center;
+        border-left: 1px solid $secondary-color;
+        border-right: 1px solid $secondary-color;
+        line-height: 130%;
+        > p {
+            font-size: 0.5rem;
+            line-height: 100%;
+            left:50%;
+            transform: translate(-50%, 0);
+            width:70%;
+        }
+    }
+    &__right {
+        width:40%;
+        text-align: right;
+        font-size: 1.2rem;
+        line-height: 140%;
+        letter-spacing: 2px;
+        *:last-child {
+            right: 20px;
+        }
+    }
+    .letterbox {
+    width: 350px;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    color: $secondary-color;
+    }
+}
+
+.map {
+    overflow: hidden;
+    height: auto;
+    iframe {
+        height: 100%;
+        width:100%;
+    }
+}
+
+.red-btn {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    color:$neutralLight-color;
+    width: 150px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    &:hover {
+        background-color: $secondaryDark-color;
+        border-color: $secondaryDark-color;
+
+    }
+}
+
+
+.link {
+    text-decoration: none;
+    color: $neutralLight-color;
+    font-size: 1rem;
+}
+
+
+
+@import 'responsive';
