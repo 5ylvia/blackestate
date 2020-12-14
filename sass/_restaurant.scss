@@ -1,14 +1,5 @@
 .restaurant {
   &__hero {
-    background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.7),
-        rgba($primary-color, 0)
-      ),
-      url("../image/Restaurant\ scene.jpg") center;
-    background-attachment: fixed;
-    background-size: cover;
-
     height: 500px;
     display: flex;
     align-items: center;

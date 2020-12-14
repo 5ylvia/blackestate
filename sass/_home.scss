@@ -7,32 +7,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(
-      to bottom,
-      rgba($primary-color, 0.8),
-      rgba($primary-color, 0.1)
-    ),
-    url("../image/black_estate_34.jpg") center;
-  background-size: cover;
 }
 
 .media {
   height: 300px;
   display: flex;
   width: 100%;
-}
-
-.media-left {
-  background: linear-gradient(rgba($primary-color, 0.3)),
-    url("../image/B\ &\ B.jpg") center right;
-}
-.media-center {
-  background: linear-gradient(rgba($primary-color, 0.3)),
-    url("../image/IMG_0884.jpg") center top;
-}
-.media-right {
-  background: linear-gradient(rgba($primary-color, 0.3)),
-    url("../image/IMG_3245\ copy.jpg") center top;
 }
 
 .media-item {
